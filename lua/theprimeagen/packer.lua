@@ -76,5 +76,13 @@ return require('packer').startup(function(use)
   use("eandrju/cellular-automaton.nvim")
   use("laytan/cloak.nvim")
 
+  use({
+      'goolord/alpha-nvim',
+      requires = { 'nvim-tree/nvim-web-devicons' },
+  })
+  use({ "MaximilianLloyd/ascii.nvim", requires = {
+      "MunifTanjim/nui.nvim"
+  } })
+
 end)
 

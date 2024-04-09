@@ -57,7 +57,7 @@ dashboard.section.buttons.val = {
 }
 
 local function footer()
-    return "...- ... -.-. --- -.. .  -.-. --- .--. ."
+    return "...- ... -.-. --- .--. ."
 end
 
 dashboard.section.footer.val = footer()

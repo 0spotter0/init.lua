@@ -47,6 +47,7 @@ return require('packer').startup(function(use)
   use("mbbill/undotree")
   use("tpope/vim-fugitive")
   use("nvim-treesitter/nvim-treesitter-context");
+  use("prettier/vim-prettier");
 
   use {
 	  'VonHeikemen/lsp-zero.nvim',

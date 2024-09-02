@@ -32,6 +32,7 @@ vim.g.netrw_browse_split = 0
 vim.g.netrw_banner = 0
 vim.g.netrw_winsize = 25
 
-vim.cmd [[
-    autocmd BufWritePre *.js,*.jsx,*.ts,*.tsx,*.json PrettierAsync
-]]
+-- Failed attempt to autoformat with prettier
+-- vim.cmd [[
+--     autocmd BufWritePre *.js,*.jsx,*.ts,*.tsx,*.json PrettierAsync
+-- ]]

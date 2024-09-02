@@ -41,3 +41,7 @@ vim.keymap.set("n", "<leader><leader>", function()
     vim.cmd("so")
 end)
 
+-- Map :W to :w in case I fat finger shift
+vim.cmd([[
+  command! W w
+]])

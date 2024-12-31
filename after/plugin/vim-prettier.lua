@@ -1,3 +1,3 @@
-vim.keymap.set('n', '<leader>p', '<Nop>')
-vim.keymap.set('n', '<leader>=', vim.cmd.Prettier) --'<cmd>Prettier<CR>')
+vim.keymap.set('n', '<leader>p', '<Nop>') -- TODO: check this
+vim.keymap.set('n', '<leader>=', 'gg=G')
 
